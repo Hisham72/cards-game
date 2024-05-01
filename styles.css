@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Moga_Magdy Soleman';
+    src: url('/ALFONT_COM_MOGA-FONT.TTF')
+}
+
 body {
-    /*background-image: url("images/5\ \(1\).png");
-    background-blend-mode: lighten;*/
     background-color: #a0330d;
+    text-align: center;
+}
+
+span{
+    font-family: 'Moga_Magdy Soleman';
+    color: #dda900;
+    font-size: xxx-large;
 }
