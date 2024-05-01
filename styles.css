@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-.mshchoose {
+/*.mshchoose {
 
     margin: 15px;
 }
@@ -12,12 +12,22 @@ body {
 .choose {
     margin-block-start: 0em;
     margin-block-end: 0em;
-}
+}*/
 
 p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     color: #ffc400;
     font-size: xxx-large;
     height: 50px;
+}
+
+.back-link {
+    color: #ffae01;
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: x-large;
+    text-decoration: none;
 }
 
 .header-link {
@@ -28,7 +38,7 @@ p{
     font-size: x-large;
     text-decoration: none;
   }
-  .header-link:hover{
+.header-link:hover, .back-link:hover{
     color : #ffffff;
   }
 
