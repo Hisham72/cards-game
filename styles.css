@@ -1,4 +1,5 @@
 body {
-    background-image: url("images/5\ \(1\).png");
-    background-repeat: repeat;
+    /*background-image: url("images/5\ \(1\).png");
+    background-blend-mode: lighten;*/
+    background-color: #a0330d;
 }
