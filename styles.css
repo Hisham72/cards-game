@@ -1,15 +1,129 @@
-@font-face {
-    font-family: 'Moga_Magdy Soleman';
-    src: url('/ALFONT_COM_MOGA-FONT.TTF')
-}
-
 body {
+    font-family: "Lalezar", system-ui;
     background-color: #a0330d;
     text-align: center;
 }
 
-span{
-    font-family: 'Moga_Magdy Soleman';
-    color: #dda900;
-    font-size: xxx-large;
+.mshchoose {
+
+    margin: 15px;
 }
+
+.choose {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+p{
+    color: #ffc400;
+    font-size: xxx-large;
+    height: 50px;
+}
+
+.header-link {
+    color: #ffae01;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  .header-link:hover{
+    color : #ffffff;
+  }
+
+/* flip the pane when hovered */
+
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back, .ans {
+    width: 250px;
+    height: 250px;
+}
+
+
+/* flip speed */
+
+.flipper {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+/* hide back of pane during swap */
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* front pane, placed above back */
+
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+
+/* back, initially hidden pane */
+
+.back {
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100%;
+    height: 150%;
+}
+
+.one, .two, .three, .four, .five {
+    position: absolute;
+}
+
+.one {
+    right: 1%;
+}
+
+.two {
+    right: 21%;
+}
+
+.three {
+    right: 41%;
+}
+
+.four {
+    right: 61%
+}
+
+.row2 {
+    top: 68%;
+}
+
+.row3 {
+    top: 125%;
+}
+
+.row4 {
+    top: 182%;
+}
+
+.row5 {
+    top: 239%;
+}
+
+.row6 {
+    top: 296%;
+}
+
+
+
