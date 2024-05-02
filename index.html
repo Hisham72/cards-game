@@ -1,434 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
     <title>لعبة البطاقات</title>
     <script src="jquery-3.7.1.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <p class="choose">اختر بطاقة عشوائياً</p>
-        <a class="header-link" href="answers.html">الإجابات</a>
-        <a class="header-link" href="">كيفية اللعب</a>
+      <p class="choose">اختر بطاقة عشوائياً</p>
+      <a class="header-link" href="answers.html">الإجابات</a>
+      <a class="header-link" href="">كيفية اللعب</a>
     </header>
     <!-- first row -->
-    <div>
+    <div class="cards">
+      <div class="rowone">
         <!-- first column -->
         <div class="five">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/5.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/5.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/4.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/4.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/3.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/3.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/2.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/2.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/1.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/1.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- second row -->
-    <div>
+      </div>
+      <!-- second row -->
+      <div class="rowtwo">
         <!-- first column -->
         <div class="five row2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/10.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/10.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four row2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/9.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/9.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three row2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/8.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/8.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two row2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/7.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/7.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one row2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/6.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/6.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- third row -->
-    <div>
+      </div>
+      <!-- third row -->
+      <div class="rowthree">
         <!-- first column -->
         <div class="five row3">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/15.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/15.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four row3">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/14.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/14.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three row3">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/13.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/13.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two row3">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/12.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/12.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one row3">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/11.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/11.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- fourth row -->
-    <div>
+      </div>
+      <!-- fourth row -->
+      <div class="rowfour">
         <!-- first column -->
         <div class="five row4">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/20.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/20.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four row4">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/19.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/19.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three row4">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/18.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/18.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two row4">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/17.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/17.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one row4">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/16.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/16.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- fifth row -->
-    <div>
+      </div>
+      <!-- fifth row -->
+      <div class="rowfive">
         <!-- first column -->
         <div class="five row5">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/25.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/25.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four row5">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/24.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/24.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three row5">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/23.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/23.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two row5">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/22.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/22.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one row5">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/21.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/21.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- fifth row -->
-    <div>
+      </div>
+      <!-- sixth row -->
+      <div class="rowsix">
         <!-- first column -->
         <div class="five row6">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/30.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/30.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- second column -->
         <div class="four row6">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/29.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/29.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- third column -->
         <div class="three row6">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/28.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/28.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- forth column -->
         <div class="two row6">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/27.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/27.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
         <!-- fifth column -->
         <div class="one row6">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <img src="images/1(1).png" alt="back">
-                    </div>
-                    <div class="back">
-                        <img src="images/26.png" alt="front">
-                    </div>
-                </div>
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/1(1).png" alt="back" />
+              </div>
+              <div class="back">
+                <img src="images/26.png" alt="front" />
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <script>
-        $('.flip-container .flipper').click(function() {
-        $(this).closest('.flip-container').toggleClass('hover');
-        $(this).css('transform, rotateY(180deg)');
-        });
+      $(".flip-container .flipper").click(function () {
+        $(this).closest(".flip-container").toggleClass("hover");
+        $(this).css("transform, rotateY(180deg)");
+      });
     </script>
-</body>
+  </body>
 </html>

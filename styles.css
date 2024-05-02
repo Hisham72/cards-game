@@ -95,8 +95,11 @@ img {
     height: 150%;
 }
 
-.one, .two, .three, .four, .five {
-    position: absolute;
+
+@media screen and (min-width: 480px) {
+    .one, .two, .three, .four, .five {
+        position: absolute;
+    }
 }
 
 .one {
@@ -135,5 +138,21 @@ img {
     top: 296%;
 }
 
+@media screen and (max-width: 480px) {
+    .cards {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        left: 3rem;
+    }
+    .one, .two, .three, .four, .five {
+        margin-bottom: 10rem;
+    }
+    .rowone, .rowtwo, .rowthree, .rowfour, .rowfive, .rowsix {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 
